@@ -9,7 +9,8 @@ height(250).
 display:-
 	% defs
 	kGL_COLOR_BUFFER_BIT(COLOR_BUFFER),
-	kGL_POLYGON(POLYGON),
+      	kGL_POLYGON(POLYGON),
+    
 	% gl code
 	glClear(COLOR_BUFFER),
 	glColor3f(1.0, 1.0, 1.0),
@@ -19,7 +20,7 @@ display:-
 	glVertex3f(0.75, 0.75, 0.0),
 	glVertex3f(0.25, 0.75, 0.0),
 	glEnd,
-	glFlush.
+	glutSwapBuffers.
 
 init:-
 	% defs

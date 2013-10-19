@@ -10,7 +10,7 @@ SRCS=plOpenGL.c
 MACFLAGS=-L/System/Library/Frameworks/OpenGL.framework/Libraries \
         -I/opt/local/lib/swipl-5.11.18/include \
         -framework Cocoa -framework OpenGL -framework GLUT
-NIXFLAGS=-I/root/lib/swipl-5.11.20/include
+NIXFLAGS=-I/usr/lib/swipl-6.2.6/include
 
 #
 # Compiler flags:
